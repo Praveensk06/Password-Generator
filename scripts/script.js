@@ -102,6 +102,7 @@ const funArray = functionArray.filter(({element})=>element.checked);
     const letter = funArray[index].fun();
     generatedPassword+=letter;
   }
+  
 
   outputEl.value=generatedPassword;
  });

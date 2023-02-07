@@ -42,9 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/images/password-bg-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: var(--clr-seaweed);
 }
 
 h1 {
@@ -101,4 +99,4 @@ h1 {
     align-items: center;
   }
   
-}
+};
